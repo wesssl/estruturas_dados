@@ -24,9 +24,10 @@ public class ArrayStack implements Stackable {
    
     @Override
     public String print(int length){
+        String result = " ";
         for (int i = 0; i >= length; i--) {
             result += data[i];
-            if (i! = 0) {
+            if (i != 0) {
                 result += "; ";
             }
         }
