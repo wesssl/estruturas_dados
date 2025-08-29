@@ -29,7 +29,7 @@ public class ListaExercicioArray {
         }
         */
 
-        //3. Faça um programa em Java que leia 4 notas, mostre as notas e a média na tela
+        /* 3. Faça um programa em Java que leia 4 notas, mostre as notas e a média na tela
         double[] array3 = new double[4];
         double soma = 0;
 
@@ -45,5 +45,30 @@ public class ListaExercicioArray {
         }
 
         System.out.println("Média: " + (soma/4));
+        */
+
+        /* 4. Faça um programa em Java que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+        char[] array4 = new char[10];
+        
+        for (int i = 0; i < 10; i ++){
+            System.out.print("Digite uma letra: ");
+            array4[i] = input.next().charAt(0);
+        }
+        
+        int consoantes = 0;
+        for (int i = 0; i < 10; i ++){
+            if (array4[i] != 'a' && array4[i] != 'e' && array4[i] != 'i' && array4[i] != 'o' && array4[i] != 'u') {
+                consoantes ++;
+            }
+        }
+        
+        System.out.print("Essa palavra tem : " + consoantes + "consoantes");
+        */
+
+        //5. Faça um programa em Java que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
+        int[] array5 = new int[20];
+        int[] par = new int[20];
+        int[] impar = new int[20];
+        
     }
 }
