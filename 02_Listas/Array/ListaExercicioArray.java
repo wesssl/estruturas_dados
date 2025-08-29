@@ -29,6 +29,21 @@ public class ListaExercicioArray {
         }
         */
 
-        
+        //3. Faça um programa em Java que leia 4 notas, mostre as notas e a média na tela
+        double[] array3 = new double[4];
+        double soma = 0;
+
+        for (int i = 0; i < 4; i ++){
+            System.out.print("Digite a " + (i+1) + "ª nota: ");
+            array3[i] = input.nextDouble();
+            soma += array3[i];
+        }
+
+        System.out.println("Notas digitadas: ");
+        for (int i = 0; i < 4; i ++){
+            System.out.println( (i+1) + " ª Nota: " + array3[i]);
+        }
+
+        System.out.println("Média: " + (soma/4));
     }
 }
